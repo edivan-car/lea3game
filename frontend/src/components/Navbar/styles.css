@@ -1,0 +1,29 @@
+header {
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.lea3game-nav-content{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lea3game-nav-content h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.lea3game-contact-cointainer{
+    display: flex;
+    align-items: center;
+}
+
+.lea3game-contact-link{
+    margin: 0 0 0 10px;
+    font-size: 12px;
+}
