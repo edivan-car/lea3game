@@ -18,11 +18,11 @@ function Form() {
                 <h3>{game.title}</h3>
                 <form className="lea3game-form">
                     <div className="form-group lea3game-form-group">
-                        <label htmlFor="email">Informe seu email</label>
+                        <label htmlFor="email">Enter your email</label>
                         <input type="email" className="form-control" id="email" />
                     </div>
                     <div className="form-group lea3game-form-group">
-                        <label htmlFor="score">Informe sua avaliação</label>
+                        <label htmlFor="score">Report your review</label>
                         <select className="form-control" id="score">
                             <option>1</option>
                             <option>2</option>
@@ -32,10 +32,10 @@ function Form() {
                         </select>
                     </div>
                     <div className="lea3game-form-btn-container">
-                        <button type="submit" className="btn btn-primary lea3game-btn">Salvar</button>
+                        <button type="submit" className="btn btn-primary lea3game-btn">Save</button>
                     </div>
                 </form >
-                <button className="btn btn-primary lea3game-btn mt-3">Cancelar</button>
+                <button className="btn btn-primary lea3game-btn mt-3">Cancel</button>
             </div >
         </div >
 
