@@ -1,4 +1,5 @@
 import GameScore from "components/GameScore";
+import { Link } from "react-router-dom";
 
 const game = {
     id: 1,
@@ -15,7 +16,9 @@ function GameCard() {
             <div className="lea3game-card-bottom-container">
                 <h3>{game.title}</h3>
                 <GameScore />
-                <div className="btn btn-primary lea3game-btn">Rate</div>
+                <Link to={`/form/${game.id}`}>
+                    <div className="btn btn-primary lea3game-btn">Rate</div>
+                </Link>
             </div>
         </div>
 
